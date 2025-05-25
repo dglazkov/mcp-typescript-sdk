@@ -20,7 +20,7 @@
   ],
   "exports": {
     "./server/mcp.js": "./dist/esm/server/mcp.js",
-    "./server/stdio.js": "./dist/esm/server/stdio.js"
+    "./server/sse.js": "./dist/esm/server/sse.js"
   },
   "typesVersions": {
     "*": {
