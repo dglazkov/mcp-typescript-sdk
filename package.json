@@ -20,7 +20,8 @@
   ],
   "exports": {
     "./server/mcp.js": "./dist/esm/server/mcp.js",
-    "./server/sse.js": "./dist/esm/server/sse.js"
+    "./server/sse.js": "./dist/esm/server/sse.js",
+    "./server/streamableHttp.js": "./dist/esm/server/streamableHttp.js"
   },
   "typesVersions": {
     "*": {
