@@ -19,10 +19,8 @@
     "mcp"
   ],
   "exports": {
-    "./*": {
-      "import": "./dist/esm/*",
-      "require": "./dist/cjs/*"
-    }
+    "./server/mcp.js": "./dist/esm/server/mcp.js",
+    "./server/stdio.js": "./dist/esm/server/stdio.js"
   },
   "typesVersions": {
     "*": {
